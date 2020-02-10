@@ -5,12 +5,11 @@ Dataset:
   • Human Activity Recognition Using Smartphones (https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
 
 
-
 Files:
 
-  • CodeBook.md a code book that describes the variables, the data, and any transformations or work that I performed to clean up the data
+  • CodeBook.md a code book that describes the variables, the data, and any transformations or steps taken to clean up the data
 
-  • run_analysis.R performs the data preparation and then followed by the 5 steps required as described in the course project’s definition:
+  • run_analysis.R downloads the data and then performs the data preparation and then followed by the 5 steps required as described in the course project’s definition.
   
     • Merges the training and the test sets to create one data set.
     
@@ -23,4 +22,4 @@ Files:
     • From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
     
     
-  • FinalData.txt is the exported final data after going through all the sequences described above.
+  • FinalData.txt is the exported final data after going through all the steps listed above.
